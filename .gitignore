@@ -1,0 +1,28 @@
+.DS_Store
+node_modules/
+.env*
+
+# Inbox: keep the structure, never the contents
+inbox/**
+!inbox/README.md
+!inbox/*/
+!inbox/*/.gitkeep
+
+# Exports
+exports/*
+!exports/.gitkeep
+
+# Raw agent notes
+projects/*/_raw/
+
+# Project MCP config can hold tokens
+.mcp.json
+
+# Publishing a public fork? Uncomment to keep your memory and projects out:
+# memory/**
+# !memory/INDEX.md
+# !memory/README.md
+# !memory/**/
+# !memory/**/.gitkeep
+# projects/*
+# !projects/_template/
